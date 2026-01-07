@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Srinivasa Bala's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body bgcolor="#070707">
+
+    <div class="intro">
+        <h1 class="logo-header">
+            <span class="intro-logo">S</span>
+            <span class="intro-logo">r</span>
+            <span class="intro-logo">i</span>
+            <span class="intro-logo">n</span>
+            <span class="intro-logo">i</span>
+            <span class="intro-logo">v</span>
+            <span class="intro-logo">a</span>
+            <span class="intro-logo">s</span>
+            <span class="intro-logo">a</span>
+
+        </h1>
+    </div>
+
+    <nav id="desktop-nav" class="bgcolor">
+        <div class="logo"><img src="./Assets/Bala 1.png"
+            alt="Srinivasa Bala" onclick="location.href='./#profile'">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">Srinivasa</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links" onclick="togglemenu()">
+                <li><a href="#about" onclick="togglemenu()">About</a></li>
+                <li><a href="#skills" onclick="togglemenu()">Skills</a></li>
+                <li><a href="#projects" onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact" onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img class="home-pic"
+            src="./Assets/pic1.png" alt="Srinivasa Bala">
+        </div>
+        <div class="section__text" class="show">
+            <p class="section__text__p1">Hello there, I'm</p>
+            <h1 class="title">Srinivasa Bala</h1>
+            <p class="section__text__p2">Graphic Designer  &  Motion Graphics</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./Assets/Resume.pdf')"
+                >
+                My Resume
+                </button>
+                <button class="btn btn-color-1"
+                onclick="location.href='./#contact'">
+                Get in touch
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src='./Assets/linkedin.png' alt="My LinkedIn Profile"
+                class="icon" onclick="location.href='https://www.linkedin.com/in/srinivasa-bala-a78b55259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'">
+                <img src='./Assets/insta.png' alt="My Instagram Handle"
+                class="icon" onclick="location.href='https://www.instagram.com/_rake_93?igsh=bGJyam14d284amQy'">
+                </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text">Get To Know</p>
+        <h1 class="title2">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Assets/bala_pic1.png"
+                alt="Srinivasa Bala Profile Picture"
+                class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png"
+                        alt="experience icon" class="icon">
+                        <h3 class="about-headings">Experience</h3>
+                        <p><b>1+ years</b><br>Graphic Designing<br>Motion Graphics</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/graduation.png"
+                        alt="education icon" class="icon">
+                        <h3 class="about-headings">Education</h3>
+                        <p><b>RP Sarathy Institiute of Technology</b>
+                        <br>B.E - Computer Science & Engineering<br>
+                        CSE '22-26</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>
+                        I'm a sophomore at RP institution and the Design Coordinator 
+                        of YUVA, Nfest's cultural fest. With one years of 
+                        experience in graphic design and video editing, I am proficient 
+                        in Adobe Photoshop, Illustrator, Figma, and Blender, 
+                        with skills in basic 3D modeling using Blender. I thrive in 
+                        collaborative projects.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text">Have a look at my</p>
+        <h1 class="title">Skills</h1>
+        <div class="skills-details-container">
+                <div class="sk-details-container">
+                    <h2 class="skills-subtitle">Graphic Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Photoshop</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Adobe Illustrator</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Canva</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                    </div>
+                    <h2 class="skills-subtitle">Motion Graphics</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./Assets/checkmark.png" alt="skills checkmark"
+                            class="icon">
+                            <div>
+                                <h3>Blender</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>           
+                </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="section__text">Explore my</p>
+        <h1 class="title">Work</h1>
+        <div class="work-list">
+            <a href="./Assets/3D 4.png"><div class="work">
+                <img src="./Assets/3D 3.png" alt="3D Design">
+                <div class="layer">
+                    <h3>3D Design</h3>
+                </div>
+            </div></a>
+            <a href="./Assets/poster 2.png"><div class="work">
+                <img src="./Assets/poster 1.png" alt="Poster Design">
+                <div class="layer">
+                    <h3>Poster Design</h3>
+                </div>
+            </div></a>
+            <a href="./Assets/Bala logo2.png"><div class="work">
+                <img src="./Assets/logo 4.png" alt="Logo Design">
+                <div class="layer">
+                    <h3>Logo Design</h3>
+                </div>
+            </div></a>
+            
+        </div>
+
+            </div>
+        </div>
+        <a href="projects.html">
+        <button class="btn btn-color-2">
+                See more
+            </button></a>
+    </section>
+
+    <section id="contact">
+        <p class="section__text" style="padding-bottom: 0.3rem;">Get In Touch</p>
+        <h1 class="title" style="font-weight: 600;">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <a href="mailto:sv7768818@gmail.com">
+                    <img src="./Assets/email.png" alt="Email icon"
+                    class="icon contact-icon">
+                    <p>sv7768818@gmail.com</p>
+                </a>
+            </div>
+            <div class="contact-info-container">
+            <a href="https://www.linkedin.com/in/srinivasa-bala-a78b55259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                <img src="./Assets/linkedin.png" alt="LinkedIn" 
+                class="icon contact-icon">
+                <p>Connect with me on LinkedIn</p>
+            </a>
+            </div>
+            <div class="contact-info-container">
+            <a href="https://www.instagram.com/_rake_93?igsh=bGJyam14d284amQy">
+                <img src='./Assets/insta.png' alt="My Instagram Handle" 
+                class="icon contact-icon">
+                <p>DM me on Instagram</p>
+            </a>
+            </div>
+        </div>
+        <div class="logo"><img src="./Assets/Bala 1.png"
+            alt="Srinivasa" onclick="location.href='./#profile'">
+        </div> 
+    </section>
+
+    <footer>
+        <nav>
+            <div class="nav-links-container2">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav><br>
+        <p>Copyright &#169; 2026 Srinivasa Bala. All Rights Resereved.</p>
+    </footer>
+
+   <script defer src="script.js"></script> 
+</body>
+</html>
